@@ -1,0 +1,55 @@
+body {
+    margin: 0 auto;
+}
+    .navbar {
+        background: linear-gradient(brown, gray);
+        display: block;
+    }
+    .navbar a {
+        color: black;
+        font-weight: bold;
+        margin: 10px;
+    }
+    h1 {
+        color: aliceblue;
+        text-align: center;
+        font-family:'Gill Sans';
+    }
+    h4 {
+        color: brown;
+        border-bottom: 1px solid brown;
+    }
+    #eren-about-me {
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+    }
+    .about-me {
+        padding: 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 600px;
+        color:white;
+        text-align: justify;
+    }
+    #eren-about-me, .about-me  {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 20px;
+    }
+    .gallery {
+        color: white;
+        margin: 20px;
+    }
+    img {
+        margin: 10px;
+        width: 180px;
+        height: 180px;
+    }
+    .gallery img:hover {
+        transform: scale(1.3);
+        transition: transform 0.3s ease-in-out;
+      }
+      
+  
+    
